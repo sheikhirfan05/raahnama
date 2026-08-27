@@ -183,6 +183,7 @@ nav a:hover {
     height: 200px;
     border-radius: 5px;
     margin-bottom: 15px;
+    cursor: pointer;
     /* Placeholder for actual tour images */
 }
 
