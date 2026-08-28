@@ -42,3 +42,18 @@ tourImage2.addEventListener('click', () => {
 tourImage3.addEventListener('click', () => {
     window.open(sawatFact, "_black");
 })
+
+//Social-Links
+const facebook = document.getElementById("facebook");
+const instagram = document.getElementById("instagram");
+const tiktok = document.getElementById("tiktok");
+
+facebook.addEventListener('click', () => {
+    window.open("https://www.facebook.com/profile.php?id=61590436407564");
+});
+instagram.addEventListener('click', () => {
+    window.open("https://www.instagram.com/raahnamatravelandtours/");
+});
+tiktok.addEventListener('click', () => {
+    window.open("https://www.tiktok.com/@raahnama");
+});
