@@ -217,7 +217,21 @@ nav a:hover {
     color: var(--primary-green);
     font-weight: bold;
 }
+/*Social-Links*/
 
+.social-links{
+    width: 100%;
+    height: 3rem;
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links i{
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
 /* Footer */
 footer {
     background-color: var(--primary-green);
