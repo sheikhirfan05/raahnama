@@ -317,9 +317,9 @@ footer h2 {
         text-align: center;
     }
     .our-services{
-        height: 700px;
+        height: 800px;
         flex-direction: column;
-        gap: 5%;
+        gap: 8%;
         padding: 5%;
         font-size: 1rem;
         width: 98%;
@@ -333,5 +333,8 @@ footer h2 {
     .our-services h3{
         font-size: 1rem;
         text-align: center;
+    }
+    .circle{
+        margin-left: 41%;
     }
 }
