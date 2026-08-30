@@ -157,7 +157,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     /* Adjust this value between 0.0 (transparent) and 1.0 (opaque) */
-
+}
 
 .hero h2 {
     color: var(--white);
@@ -337,7 +337,8 @@ footer h2 {
         gap: 20px;
         text-align: center;
     }
-    .our-services{
+
+    .our-services {
         height: 800px;
         flex-direction: column;
         gap: 8%;
@@ -347,15 +348,19 @@ footer h2 {
         box-shadow: none;
         margin-left: 6px;
     }
-    .services{
+
+    .services {
         width: 100%;
         text-align: center;
+        gap: 5%;
     }
-    .our-services h3{
+
+    .our-services h3 {
         font-size: 1rem;
         text-align: center;
     }
-    .circle{
+
+    .circle {
         margin-left: 42%;
     }
 }
