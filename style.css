@@ -130,13 +130,34 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-color: var(--primary-green);
+    position: relative;
+    isolation: isolate;
+    /* background-color: var(--primary-green); */
     /* You can add a background image here later */
     /* background: linear-gradient(rgba(17, 101, 48, 0.8), rgba(17, 101, 48, 0.8)), url('your-image.jpg') center/cover; */
     color: var(--white);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 100px 20px;
+    height: 70vh;
+    text-align: center;
 }
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* Stretches the pseudo-element to fill the parent */
+    z-index: -1;
+    /* Places the image layer behind your text */
+
+    /* Add your background image properties here */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url('https://images.unsplash.com/photo-1442850473887-0fb77cd0b337?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    /* Adjust this value between 0.0 (transparent) and 1.0 (opaque) */
+
 
 .hero h2 {
     color: var(--white);
@@ -241,7 +262,7 @@ nav a:hover {
     scroll-behavior: smooth;
     height: 10rem;
     width: 100%;
-    background-color: #f0f0f0;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
